@@ -1,0 +1,162 @@
+body{
+    font-family: 'century gothic',calibri,serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header{
+    height: 100px;
+}
+
+footer{
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    background-color:#c5c5c5;
+    border-top: 2px solid #aaa;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.index:hover, .presentation{
+    border-top: 5px solid #4c8;
+    background-color: rgba(64, 200, 130, 0.15);
+}
+.exp:hover, .parcours{
+    border-top: 5px solid #f1dc4f;
+    background-color: rgba(241, 211, 79, 0.15);
+}
+
+.hobbies:hover, .competence{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(00, 112, 192, 0.15);
+}
+
+.contact:hover, .recommandation{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.img{
+    width: 200px;
+}
+section{
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom:10px ;
+}
+.sec{
+    margin: 0px 10%;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.right{
+    width: 70%;
+    float: left;
+}
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+
+.leftexp{
+    float: left;
+    width: 45%;
+}
+.rightexp{
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+}
+.rightexp p{
+    margin-top: 100px;
+}
+img{
+    width: 100%;
+    max-width: 300px;
+}
+.sec::after, .expe::after, .reco::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.orange{
+    border-top: 5px solid #e47d26;
+    background-color: rgba(228, 117, 38, 0.15);
+    margin-bottom: 0px;
+}
+.vert{
+    border-top: 5px solid #5f6;
+    background-color: rgba(79, 240, 80, 0.15);
+}
+.bleu{
+    border-top: 5px solid #29c;
+    background-color: rgba(30, 152, 212, 0.15);
+}
+.jaune{
+    border-top: 5px solid #f3e241;
+    background-color: rgba(240, 255, 69, 0.15);
+}
+.rouge{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+
+@media screen and (max-width:780px){
+        header{
+            height: 50px;
+        }
+        h1{
+            font-size: 28px;
+            margin: 20px 0px 0px 0px;
+        }
+        nav li a{
+            font-size: 12px;
+            padding: 10px;
+        }
+        nav li:hover a{
+            font-size: 12px;
+            padding: 5px 10px 10px 10px;
+        }
+    
+}
